@@ -31,6 +31,8 @@ main ul {
     flex-wrap: wrap;
 }
 
+/* STILE BOX */
+
 .box {
     height: 120px;
     width: 120px;
