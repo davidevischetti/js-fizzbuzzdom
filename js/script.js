@@ -8,17 +8,11 @@ for (let i = 1; i <= 100; i++) {
     //CREO DELLE ECCEZIONI PER GESTIRE LE VARIE CLASSI
     if (i % 3 === 0 && i % 5 === 0) {
         myBox = `<li class="box fizzbuzz-box">fizzbuzz</li>`;
-    }
-
-    else if (i % 3 === 0 && i % 5 !== 0) {
+    } else if (i % 3 === 0 && i % 5 !== 0) {
         myBox = `<li class="box fizz-box">fizz</li>`;
-    } 
-    
-    else if (i % 5 === 0 && i % 3 !== 0) {
+    } else if (i % 5 === 0 && i % 3 !== 0) {
         myBox = `<li class="box buzz-box">buzz</li>`;
-    }
-
-    else {
+    } else {
         myBox = `<li class="box number-box">${i}</li>`;
     }
 
@@ -29,5 +23,5 @@ for (let i = 1; i <= 100; i++) {
 //PERSONALIZZO LE CLASSI COME DA RIFERIMENTO ALL'INTERNO DEL CSS
 
 
-     
+
 
